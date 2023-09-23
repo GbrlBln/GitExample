@@ -36,6 +36,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
+fun newFunction():String{
+    return "This function is not used"
+}
 
 @Preview(showBackground = true)
 @Composable
